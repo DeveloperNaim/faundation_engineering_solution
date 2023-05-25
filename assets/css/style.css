@@ -1244,6 +1244,7 @@ body {
   .video-banner {
     max-width: 75%;
     margin-inline: auto;
+    height: 485px;
   }
 
 
