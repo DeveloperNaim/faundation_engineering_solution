@@ -706,6 +706,12 @@ body {
   position: relative;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 120px;
+  width: 970px;
+  height: 485px;
+  border: none;
+  overflow: hidden;
+
+
 }
 
 .video .play-btn {
@@ -729,7 +735,7 @@ body {
 }
 
 .video-banner::after {
-  inset: 0;
+  inset: 1;
   background-color: var(--black_30);
 }
 
@@ -1004,8 +1010,13 @@ body {
    * VIDEO
    */
 
-  .video .play-btn { padding: 25px; }
+  /* .video .play-btn { padding: 25px; } */
 
+
+  .video-banner{
+    width: 500px;
+    height: 280px;
+  }
 
 
   /**
@@ -1116,7 +1127,13 @@ body {
     left: -10px;
   }
 
-
+  /**
+   * Video
+   */
+   .video-banner{
+    width: 685px;
+    height: 385px;
+  }
 
   /**
    * ABOUT
@@ -1282,6 +1299,10 @@ body {
   .about-content,
   .video-card,
   .blog { position: relative; }
+  .video-banner{
+    width: 800px;
+    height: 450px;
+  }
 
 
 
@@ -1392,9 +1413,21 @@ body {
 
 /* Contact Form Style */
 
+@media (max-width: 399px){
+  .video-banner{
+    width: 350px;
+    height: 200px;
+  }
 
+}
 
+@media (max-width: 500px){
+  .video-banner{
+    width: 380px;
+    height: 215px;
+  }
 
+}
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
