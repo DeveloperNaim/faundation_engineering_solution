@@ -1314,7 +1314,7 @@ body {
   .blog { position: relative; }
   .video-banner{
     max-width: 75%;
-    height: 84vh;
+    height: 48rem;
     position: relative;
     overflow: hidden;
   }
