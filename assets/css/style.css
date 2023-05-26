@@ -705,9 +705,9 @@ body {
 .video-banner {
   position: relative;
   border-top-right-radius: 80px;
-  border-bottom-left-radius: 120px;
-  width: 970px;
-  height: 485px;
+  border-bottom-left-radius: 80px;
+  width: 100%;
+  height: auto;
   border: none;
   overflow: hidden;
 
@@ -972,7 +972,7 @@ body {
  @media (min-width: 300px){
   .video-banner{
     width: 100%;
-    height: 260px;
+    height: 24vh;
     position: relative;
     overflow: hidden;
   }
@@ -1021,8 +1021,8 @@ body {
 
 
   .video-banner{
-    width: 500px;
-    height: 280px;
+    width: 100%;
+    height: 44vh;
     position: relative;
     overflow: hidden;
   }
@@ -1140,8 +1140,8 @@ body {
    * Video
    */
    .video-banner{
-    width: 685px;
-    height: 385px;
+    width: 100%;
+    height: auto;
     position: relative;
     overflow: hidden;
   }
@@ -1253,7 +1253,7 @@ body {
    */
 
   .video-banner {
-    max-width: 75%;
+    max-width: 100%;
     margin-inline: auto;
     position: relative;
     overflow: hidden;
@@ -1313,8 +1313,8 @@ body {
   .video-card,
   .blog { position: relative; }
   .video-banner{
-    width: 800px;
-    height: 450px;
+    max-width: 75%;
+    height: auto;
     position: relative;
     overflow: hidden;
   }
